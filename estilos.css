@@ -1,0 +1,45 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    margin: 20px;
+}
+.gradientes{
+    background-image: linear-gradient(blue,red);
+}
+.trasladar{
+    transform: translate(50px,60px);
+}
+.rotar{
+    margin: 200px;
+    transform: rotate(40deg);
+}
+/* scale, valores entre 0 y 1 achican y entre 1 y 2 agrandan.*/
+.escalar{
+    margin: 20px;
+    transform: scale(1,2);
+    background-color: brown;
+}
+
+img{
+    width: 200px;
+
+}
+img:hover{
+    border: solid 5px salmon;
+    transform: skew(10deg,10deg);
+    transform: scale(2,2);
+}
+h1{
+    color: brown;
+}
+h1:hover{
+    color: blue;
+    font-size: x-large;
+}
+.boton{
+    border: solid 2px red;
+}
+.boton:focus{
+    border: blue 2px dotted;
+}
